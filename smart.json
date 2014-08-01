@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "autoform": {},
+    "collectionFS": {},
+    "cfs-autoform": {
+      "git": "https://github.com/aldeed/meteor-cfs-autoform",
+      "branch": "master"
+    }
+  }
+}
