@@ -1,0 +1,7 @@
+<template name="form">
+  {{#autoForm id="insertForm" type="insert" collection="COLLECTIONS.Docs"}}
+    {{> afQuickField name="name"}}
+    {{> cfsFileField name="fileId" collection="COLLECTIONS.Files" placeholder="Selecionar ou Arrastar um Arquivo"}}
+    <button type="submit">Enviar</button>
+  {{/autoForm}}
+</template>
